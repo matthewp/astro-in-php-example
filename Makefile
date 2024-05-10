@@ -1,7 +1,7 @@
 
 .PHONY: build
 build:
-	cd astro-project && npm run build
+	cd astro-project && npm install && npm run build
 
 .PHONY: serve
 serve:
