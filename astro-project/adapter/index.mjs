@@ -9,7 +9,8 @@ export default function() {
           serverEntrypoint: new URL('./server-entrypoint.mjs', import.meta.url).pathname,
           supportedAstroFeatures: {
             serverOutput: 'stable'
-          }
+          },
+          exports: ['manifest']
         });
       },
       'astro:build:setup': ({ vite, target }) => {
