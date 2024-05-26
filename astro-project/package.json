@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "astro": "^0.0.0-container-20240510131504"
+    "astro": "^0.0.0-container-20240524172326"
   },
   "devDependencies": {
     "@astrojs/react": "^3.3.4"
