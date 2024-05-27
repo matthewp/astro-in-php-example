@@ -1,12 +1,19 @@
 # Astro inside of PHP
 
-First build the Astro project.
+Install inside of the `astro-project` folder.
 
 ```shell
-make build
+cd astro-project
+npm install
 ```
 
-Now run the PHP server:
+Then build the Astro project.
+
+```shell
+npm run build
+```
+
+Now run the PHP server (from the root)
 
 ```shell
 php -S localhost:8000
